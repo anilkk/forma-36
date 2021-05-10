@@ -41,14 +41,22 @@ export { List, ListItem } from '@contentful/f36-list';
 export type { ListProps, ListItemProps } from '@contentful/f36-list';
 export { HelpText } from '@contentful/f36-helptext';
 export type { HelpTextProps } from '@contentful/f36-helptext';
-export { ControlledInputField } from '@contentful/f36-forms';
-export type { ControlledInputFieldProps } from '@contentful/f36-forms';
+export { ControlledInputField, CheckboxField } from '@contentful/f36-forms';
+export type {
+  ControlledInputFieldProps,
+  CheckboxFieldProps,
+} from '@contentful/f36-forms';
+export { ControlledInput, Checkbox, RadioButton } from '@contentful/f36-inputs';
+export type {
+  ControlledInputProps,
+  CheckboxProps,
+  RadioButtonProps,
+} from '@contentful/f36-inputs';
 export * from './components/Accordion';
 export * from './components/Asset';
 export * from './components/Autocomplete';
 export * from './components/Button';
 export * from './components/Card';
-export * from './components/CheckboxField';
 export * from './components/CopyButton';
 export * from './components/Dropdown';
 export * from './components/EditorToolbar';
