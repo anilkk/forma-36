@@ -2,6 +2,7 @@
 
 exports[`renders the component 1`] = `
 .emotion-4 {
+  font-weight: 500;
   margin-bottom: 0;
 }
 
@@ -156,6 +157,7 @@ exports[`renders the component 1`] = `
 
 exports[`renders the component as checked 1`] = `
 .emotion-4 {
+  font-weight: 500;
   margin-bottom: 0;
 }
 
@@ -311,6 +313,7 @@ exports[`renders the component as checked 1`] = `
 
 exports[`renders the component as required 1`] = `
 .emotion-4 {
+  font-weight: 500;
   margin-bottom: 0;
 }
 
@@ -516,6 +519,7 @@ exports[`renders the component in a disabled state 1`] = `
 }
 
 .emotion-4 {
+  font-weight: 500;
   margin-bottom: 0;
   opacity: 0.7;
   cursor: not-allowed;
@@ -633,6 +637,7 @@ exports[`renders the component in a disabled state 1`] = `
 
 exports[`renders the component with a help text 1`] = `
 .emotion-4 {
+  font-weight: 500;
   margin-bottom: 0;
 }
 
@@ -943,6 +948,7 @@ exports[`renders the component with a light label variation 1`] = `
 }
 
 .emotion-4 {
+  font-weight: 500;
   margin-bottom: 0;
   font-weight: 400;
 }
@@ -1019,6 +1025,7 @@ exports[`renders the component with a light label variation 1`] = `
 
 exports[`renders the component with a validation message 1`] = `
 .emotion-4 {
+  font-weight: 500;
   margin-bottom: 0;
 }
 
@@ -1234,6 +1241,7 @@ exports[`renders the component with a validation message 1`] = `
 
 exports[`renders the component with a value 1`] = `
 .emotion-4 {
+  font-weight: 500;
   margin-bottom: 0;
 }
 
@@ -1388,6 +1396,7 @@ exports[`renders the component with a value 1`] = `
 
 exports[`renders the component with an additional class name 1`] = `
 .emotion-4 {
+  font-weight: 500;
   margin-bottom: 0;
 }
 

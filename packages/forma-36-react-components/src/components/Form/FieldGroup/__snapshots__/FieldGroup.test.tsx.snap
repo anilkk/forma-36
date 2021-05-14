@@ -2,6 +2,7 @@
 
 exports[`renders the component 1`] = `
 .emotion-4 {
+  font-weight: 500;
   margin-bottom: 0;
 }
 
@@ -233,6 +234,7 @@ exports[`renders the component 1`] = `
 
 exports[`renders the component children in a row 1`] = `
 .emotion-4 {
+  font-weight: 500;
   margin-bottom: 0;
 }
 
@@ -464,6 +466,7 @@ exports[`renders the component children in a row 1`] = `
 
 exports[`renders the component with an additional class name 1`] = `
 .emotion-4 {
+  font-weight: 500;
   margin-bottom: 0;
 }
 

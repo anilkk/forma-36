@@ -41,10 +41,15 @@ export { List, ListItem } from '@contentful/f36-list';
 export type { ListProps, ListItemProps } from '@contentful/f36-list';
 export { HelpText } from '@contentful/f36-helptext';
 export type { HelpTextProps } from '@contentful/f36-helptext';
-export { ControlledInputField, CheckboxField } from '@contentful/f36-forms';
+export {
+  ControlledInputField,
+  CheckboxField,
+  RadioButtonField,
+} from '@contentful/f36-forms';
 export type {
   ControlledInputFieldProps,
   CheckboxFieldProps,
+  RadioButtonFieldProps,
 } from '@contentful/f36-forms';
 export { ControlledInput, Checkbox, RadioButton } from '@contentful/f36-inputs';
 export type {
@@ -71,7 +76,6 @@ export * from './components/Modal';
 export * from './components/Note';
 export * from './components/Notification';
 export * from './components/Pill';
-export * from './components/RadioButtonField';
 export * from './components/Select';
 export * from './components/SelectField';
 export * from './components/Skeleton';

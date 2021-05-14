@@ -2,6 +2,7 @@
 
 exports[`renders the component 1`] = `
 .emotion-4 {
+  font-weight: 500;
   margin-bottom: 0;
 }
 
