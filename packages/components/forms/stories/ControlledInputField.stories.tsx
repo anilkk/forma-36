@@ -20,7 +20,7 @@ export default {
   },
 };
 
-export const Basic = (args: ControlledInputFieldProps) => {
+export const Basic = (args: Omit<ControlledInputFieldProps, 'ref'>) => {
   const [isActive, setActive] = useState(args.isChecked);
   return (
     <ControlledInputField
