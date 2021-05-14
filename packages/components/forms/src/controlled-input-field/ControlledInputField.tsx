@@ -2,20 +2,20 @@ import React, { EventHandler, ChangeEvent, ReactNode } from 'react';
 import { cx } from 'emotion';
 import { ValidationMessage } from '@contentful/f36-validation-message';
 
-import { FormLabel } from '@contentful/f36-components';
+import { FormLabel, FormLabelProps } from '@contentful/f36-components';
 import { ControlledInput } from '@contentful/f36-inputs';
 import { HelpText } from '@contentful/f36-helptext';
 import type { ControlledInputProps } from '@contentful/f36-inputs';
 import { styles } from './ControlledInputField.styles';
-import { Box, CommonProps } from '@contentful/f36-core';
+import { Box, BoxProps } from '@contentful/f36-core';
 
-export interface ControlledInputFieldProps extends CommonProps {
+export interface ControlledInputFieldProps extends BoxProps<'div'> {
   id: string;
   label: string;
   isLabelLight?: boolean;
   isRequired?: boolean;
   helpText?: string;
-  formLabelProps?: object;
+  formLabelProps?: FormLabelProps;
   isDisabled?: boolean;
   helpTextProps?: object;
   validationMessage?: string;
